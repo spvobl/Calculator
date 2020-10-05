@@ -103,7 +103,7 @@ class Calculator(tk.Frame):
             self.curr = self.entry.get()
         else:
             self.curr = self.entry.get()
-            self.firstNum = op
+            self.firstNum = True
            # self.entry.delete(0, "end")
 
     def button_clear(self):
